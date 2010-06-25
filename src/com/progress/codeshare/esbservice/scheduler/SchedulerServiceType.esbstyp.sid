@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sid xmlns="http://www.sonicsw.com/sonicesb/sid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	   <service>
+		      <properties>
+			         <name>SchedulerServiceType</name>
+			         <type>Java</type>			
+			         <namespace>http://www.sonicsw.com/sonicesb/sid</namespace>
+		      </properties>
+
+		      <interface name="Default">
+			         <operation name="Default">
+				            <input name="Input">
+					               <part name="DefaultInput" type="xsd:anyType" namespace="http://www.w3.org/2001/XMLSchema" binding-name="Part" binding-info="name"/>
+				            </input>
+				            <output name="Output">
+					               <part name="DefaultOutput" type="xsd:anyType" namespace="http://www.w3.org/2001/XMLSchema" binding-name="Part" binding-info="name"/>
+				            </output>
+			         </operation>
+		      </interface>
+	   </service>
+</sid>
