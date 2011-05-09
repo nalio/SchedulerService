@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (C) 2009- Progress Software
+ * Copyright (C) 2009 - Progress Software
  */
 
 package com.progress.codeshare.esbservice.scheduler;
