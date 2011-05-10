@@ -1,8 +1,4 @@
-﻿/*
- * Copyright (C) 2009- Progress Software
- */
-
-package com.progress.codeshare.esbservice.scheduler;
+﻿package com.progress.codeshare.esbservice.scheduler;
 
 import java.text.DateFormat;
 import java.text.ParseException;
